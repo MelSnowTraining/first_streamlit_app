@@ -72,7 +72,7 @@ if streamlit.button('Add Fruit to the List'):
     streamlit.text(back_from_function)
 
 
-streamlit.header("View our fruit list - Add your favorites")
+streamlit.header("View our fruit list - Add your favorites!")
 # Snowflake-related function
 def get_fruit_load_list():
     with my_cnx.cursor() as my_cur:
